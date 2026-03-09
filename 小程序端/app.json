@@ -1,0 +1,111 @@
+{
+	"pages": [
+		"projects/meetche/pages/default/index/default_index",
+		"projects/meetche/pages/about/list/about_list",
+		"projects/meetche/pages/about/index/about_index",
+		"projects/meetche/pages/search/search",
+		"projects/meetche/pages/my/index/my_index",
+		"projects/meetche/pages/my/reg/my_reg",
+		"projects/meetche/pages/my/edit/my_edit",
+		"projects/meetche/pages/my/login/my_login",
+		"projects/meetche/pages/my/pwd/my_pwd",
+		"projects/meetche/pages/my/fav/my_fav",
+		"projects/meetche/pages/my/foot/my_foot",
+		"projects/meetche/pages/news/index/news_index",
+		"projects/meetche/pages/news/detail/news_detail",
+		"projects/meetche/pages/news/cate1/news_cate1",
+		"projects/meetche/pages/news/cate2/news_cate2",
+		"projects/meetche/pages/admin/news/list/admin_news_list",
+		"projects/meetche/pages/admin/news/add/admin_news_add",
+		"projects/meetche/pages/admin/news/edit/admin_news_edit",
+		"projects/meetche/pages/admin/setup/about/admin_setup_about",
+		"projects/meetche/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/meetche/pages/admin/index/home/admin_home",
+		"projects/meetche/pages/admin/index/login/admin_login",
+		"projects/meetche/pages/admin/content/admin_content",
+		"projects/meetche/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/meetche/pages/admin/mgr/list/admin_mgr_list",
+		"projects/meetche/pages/admin/mgr/add/admin_mgr_add",
+		"projects/meetche/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/meetche/pages/admin/user/list/admin_user_list",
+		"projects/meetche/pages/admin/user/detail/admin_user_detail",
+		"projects/meetche/pages/admin/user/export/admin_user_export",
+		"projects/meetche/pages/meet/index/meet_index",
+		"projects/meetche/pages/meet/detail/meet_detail",
+		"projects/meetche/pages/meet/join/meet_join",
+		"projects/meetche/pages/meet/my_join_list/meet_my_join_list",
+		"projects/meetche/pages/meet/my_join_detail/meet_my_join_detail",
+		"projects/meetche/pages/meet/calendar/meet_calendar",
+		"projects/meetche/pages/meet/join_list/meet_join_list",
+		"projects/meetche/pages/meet/cate/meet_cate",
+		"projects/meetche/pages/admin/meet/join_list/admin_meet_join_list",
+		"projects/meetche/pages/admin/meet/export/admin_meet_export",
+		"projects/meetche/pages/admin/meet/scan/admin_meet_scan",
+		"projects/meetche/pages/admin/meet/list/admin_meet_list",
+		"projects/meetche/pages/admin/meet/add/admin_meet_add",
+		"projects/meetche/pages/admin/meet/edit/admin_meet_edit",
+		"projects/meetche/pages/admin/meet/day_set/admin_meet_day_set",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#1060C1",
+		"navigationBarTitleText": "4S店小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#fefefe",
+		"color": "#999999",
+		"selectedColor": "#1060C1",
+		"list": [
+			{
+				"pagePath": "projects/meetche/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/meetche/images/tabbar/home.png",
+				"selectedIconPath": "/projects/meetche/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/meetche/pages/news/cate1/news_cate1",
+				"text": "公告",
+				"iconPath": "/projects/meetche/images/tabbar/cate1.png",
+				"selectedIconPath": "/projects/meetche/images/tabbar/cate1_cur.png"
+			},
+			{
+				"pagePath": "projects/meetche/pages/news/cate2/news_cate2",
+				"text": "指南",
+				"iconPath": "/projects/meetche/images/tabbar/cate2.png",
+				"selectedIconPath": "/projects/meetche/images/tabbar/cate2_cur.png"
+			},
+			{
+				"pagePath": "projects/meetche/pages/meet/calendar/meet_calendar",
+				"text": "预约日历",
+				"iconPath": "/projects/meetche/images/tabbar/ticket.png",
+				"selectedIconPath": "/projects/meetche/images/tabbar/ticket_cur.png"
+			},
+			{
+				"pagePath": "projects/meetche/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/meetche/images/tabbar/my.png",
+				"selectedIconPath": "/projects/meetche/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"requiredPrivateInfos": [
+		"chooseLocation"
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
